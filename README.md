@@ -43,7 +43,7 @@ Introducing Amazin Yeshuwanna Money: The Blockchain Powered (Economy Education B
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
 <div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link" href="https://pancakeswap.finance/swap?outputCurrency=0xA2772Ec16949C553A25F733B690894b30d4f3885" target="_blank" rel="noreferrer noopener">The future of Economy Educational Board Game System is now on board this Crypto Currency Project!</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link" href="https://pancakeswap.finance/swap?outputCurrency=0xA2772Ec16949C553A25F733B690894b30d4f3885" target="_blank" rel="noreferrer noopener">The future of Economy Educational Board Game System is now on board this Digital Gaming Token Exchange!</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
