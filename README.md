@@ -45,7 +45,38 @@ Introducing Amazin Yeshuwanna Money: The Blockchain Powered (Economy Education B
 <div class="wp-block-buttons"><!-- wp:button -->
 <div class="wp-block-button"><a class="wp-block-button__link" href="https://pancakeswap.finance/swap?outputCurrency=0xA2772Ec16949C553A25F733B690894b30d4f3885" target="_blank" rel="noreferrer noopener">The future of Economy Educational Board Game System is now on board this Digital Gaming Token Exchange!</a></div>
 <!-- /wp:button --></div>
-<!-- /wp:buttons -->
+/**
+ * Requires curl enabled in php.ini
+ **/
+
+<?php
+$url = 'https://sandbox-api.coinmarketcap.com/v1/cryptocurrency/listings/latest';
+$parameters = [
+  'start' => '1',
+  'limit' => '5000',
+  'convert' => 'USD'
+];
+
+$headers = [
+  'Accepts: application/json',
+  'X-CMC_PRO_API_KEY: 5c4676ca-6c9b-47ad-8fca-fb5a7923f3bf'
+];
+$qs = http_build_query($parameters); // query string encode the parameters
+$request = "{$url}?{$qs}"; // create the request URL
+
+
+$curl = curl_init(); // Get cURL resource
+// Set cURL options
+curl_setopt_array($curl, array(
+  CURLOPT_URL => $request,            // set the request URL
+  CURLOPT_HTTPHEADER => $headers,     // set the headers 
+  CURLOPT_RETURNTRANSFER => 1         // ask for raw response instead of bool
+));
+
+$response = curl_exec($curl); // Send the request, save the response
+print_r(json_decode($response)); // print json decoded response
+curl_close($curl); // Close request
+?>
 
 <!-- wp:paragraph {"fontSize":"huge"} -->
 <p class="has-huge-font-size">Total Amount of AmYesMoney (BEP-20) Gaming Tokens: 14,232,577,769,808,912 quadrillion</p>
