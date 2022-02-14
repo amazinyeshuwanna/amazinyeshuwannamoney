@@ -1,46 +1,32 @@
 # amazinyeshuwannamoney
-
-          
-<!-- /wp:html --> https://pro-api.coinmarketcap.com
-https://pro-api.coinmarketcap.com/v1/exchange/quotes/latest
-<script>{
-"data": {
-"270": {
-"id": 270,
-"name": "Binance",
-"slug": "binance",
-"num_coins": 132,
-"num_market_pairs": 385,
-"last_updated": "2018-11-08T22:11:00.000Z",
-"traffic_score": 1000,
-"rank": 1,
-"exchange_score": 9.8028,
-"liquidity_score": 9.8028,
-"quote": {
-"USD": {
-"volume_24h": 768478308.529847,
-"volume_24h_adjusted": 768478308.529847,
-"volume_7d": 3666423776,
-"volume_30d": 21338299776,
-"percent_change_volume_24h": -11.8232,
-"percent_change_volume_7d": 67.0306,
-"percent_change_volume_30d": -0.0821558,
-"effective_liquidity_24h": 629.9774
-}
-}
-}
-},
-"status": {
-"timestamp": "2022-02-10T04:42:04.448Z",
-"error_code": 0,
-"error_message": "",
-"elapsed": 10,
-"credit_count": 1
-}
-}
-  
-  <!-- /wp:html -->
+<html>
 <script>
+
+var apikey = {
+    key:'XXXXX-YOUR API KEY GOES HERE-XXXX'
+}
+    
+request('GET','https://pro-api.coinmarketcap.com/v1/global-metrics/quotes/latest?CMC_PRO_API_KEY=' + apikey.key)
+.then((r1) => {
+    var x1 = JSON.parse(r1.target.responseText);
+    console.log(x1.data.quote.USD.total_market_cap);
+}).catch(err => {
+    console.log(err);
+})  
+    
+function request(method, url) {
+        return new Promise(function (resolve, reject) {
+            var xhr = new XMLHttpRequest();
+            xhr.open(method, url);
+            xhr.onload = resolve;
+            xhr.onerror = reject;
+            xhr.send();
+        });
+}
+</script>
+</html>
+          
+
 Introducing Amazin Yeshuwanna Money: The Blockchain Powered (Economy Education Board Game System) Gaming Token Exchange Smart Contract Events.
 <!-- wp:cover {"url":"https://amazinyeshuwannacom.files.wordpress.com/2021/09/f7e69-qi-bin-w4hbafegiac-unsplash.jpg","id":28,"dimRatio":10,"isDark":false,"align":"full"} -->
 <div class="wp-block-cover alignfull is-light"><span aria-hidden="true" class="has-background-dim-10 wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-28" alt="" src="https://amazinyeshuwannacom.files.wordpress.com/2021/09/f7e69-qi-bin-w4hbafegiac-unsplash.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1,"className":"margin-bottom-half"} -->
