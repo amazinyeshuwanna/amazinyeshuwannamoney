@@ -1,32 +1,4 @@
 # amazinyeshuwannamoney
-<html>
-<script>
-
-var apikey = {
-    key:'XXXXX-YOUR API KEY GOES HERE-XXXX'
-}
-    
-request('GET','https://pro-api.coinmarketcap.com/v1/global-metrics/quotes/latest?CMC_PRO_API_KEY=' + apikey.key)
-.then((r1) => {
-    var x1 = JSON.parse(r1.target.responseText);
-    console.log(x1.data.quote.USD.total_market_cap);
-}).catch(err => {
-    console.log(err);
-})  
-    
-function request(method, url) {
-        return new Promise(function (resolve, reject) {
-            var xhr = new XMLHttpRequest();
-            xhr.open(method, url);
-            xhr.onload = resolve;
-            xhr.onerror = reject;
-            xhr.send();
-        });
-}
-</script>
-</html>
-          
-
 Introducing Amazin Yeshuwanna Money: The Blockchain Powered (Economy Education Board Game System) Gaming Token Exchange Smart Contract Events.
 <!-- wp:cover {"url":"https://amazinyeshuwannacom.files.wordpress.com/2021/09/f7e69-qi-bin-w4hbafegiac-unsplash.jpg","id":28,"dimRatio":10,"isDark":false,"align":"full"} -->
 <div class="wp-block-cover alignfull is-light"><span aria-hidden="true" class="has-background-dim-10 wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-28" alt="" src="https://amazinyeshuwannacom.files.wordpress.com/2021/09/f7e69-qi-bin-w4hbafegiac-unsplash.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1,"className":"margin-bottom-half"} -->
