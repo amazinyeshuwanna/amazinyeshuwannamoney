@@ -1,4 +1,46 @@
 # amazinyeshuwannamoney
+
+          
+<!-- /wp:html --> https://pro-api.coinmarketcap.com
+https://pro-api.coinmarketcap.com/v1/exchange/quotes/latest
+<script>{
+"data": {
+"270": {
+"id": 270,
+"name": "Binance",
+"slug": "binance",
+"num_coins": 132,
+"num_market_pairs": 385,
+"last_updated": "2018-11-08T22:11:00.000Z",
+"traffic_score": 1000,
+"rank": 1,
+"exchange_score": 9.8028,
+"liquidity_score": 9.8028,
+"quote": {
+"USD": {
+"volume_24h": 768478308.529847,
+"volume_24h_adjusted": 768478308.529847,
+"volume_7d": 3666423776,
+"volume_30d": 21338299776,
+"percent_change_volume_24h": -11.8232,
+"percent_change_volume_7d": 67.0306,
+"percent_change_volume_30d": -0.0821558,
+"effective_liquidity_24h": 629.9774
+}
+}
+}
+},
+"status": {
+"timestamp": "2022-02-10T04:42:04.448Z",
+"error_code": 0,
+"error_message": "",
+"elapsed": 10,
+"credit_count": 1
+}
+}
+  
+  <!-- /wp:html -->
+<script>
 Introducing Amazin Yeshuwanna Money: The Blockchain Powered (Economy Education Board Game System) Gaming Token Exchange Smart Contract Events.
 <!-- wp:cover {"url":"https://amazinyeshuwannacom.files.wordpress.com/2021/09/f7e69-qi-bin-w4hbafegiac-unsplash.jpg","id":28,"dimRatio":10,"isDark":false,"align":"full"} -->
 <div class="wp-block-cover alignfull is-light"><span aria-hidden="true" class="has-background-dim-10 wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-28" alt="" src="https://amazinyeshuwannacom.files.wordpress.com/2021/09/f7e69-qi-bin-w4hbafegiac-unsplash.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1,"className":"margin-bottom-half"} -->
@@ -45,30 +87,7 @@ Introducing Amazin Yeshuwanna Money: The Blockchain Powered (Economy Education B
 <div class="wp-block-buttons"><!-- wp:button -->
 <div class="wp-block-button"><a class="wp-block-button__link" href="https://pancakeswap.finance/swap?outputCurrency=0xA2772Ec16949C553A25F733B690894b30d4f3885" target="_blank" rel="noreferrer noopener">The future of Economy Educational Board Game System is now on board this Digital Gaming Token Exchange!</a></div>
 <!-- /wp:button --></div>
-from requests import Request, Session
-from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
-import json
 
-url = 'https://sandbox-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
-parameters = {
-  'start':'1',
-  'limit':'5000',
-  'convert':'USD'
-}
-headers = {
-  'Accepts': 'application/json',
-  'X-CMC_PRO_API_KEY': '5c4676ca-6c9b-47ad-8fca-fb5a7923f3bf',
-}
-
-session = Session()
-session.headers.update(headers)
-
-try:
-  response = session.get(url, params=parameters)
-  data = json.loads(response.text)
-  print(data)
-except (ConnectionError, Timeout, TooManyRedirects) as e:
-  print(e)
 
 <!-- wp:paragraph {"fontSize":"huge"} -->
 <p class="has-huge-font-size">Total Amount of AmYesMoney (BEP-20) Gaming Tokens: 14,232,577,769,808,912 quadrillion</p>
