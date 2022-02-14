@@ -138,9 +138,6 @@ Introducing Amazin Yeshuwanna Money: The Blockchain Powered (Economy Education B
 <p><strong>Housing, Bills, Etc.</strong></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:jetpack/event-countdown {"eventTimestamp":1644795000} -->
-<div class="wp-block-jetpack-event-countdown"><div class="event-countdown__date">1644795000</div><div class="event-countdown__counter"><p><strong class="event-countdown__day">&nbsp;</strong> days</p><p><span><strong class="event-countdown__hour">&nbsp;</strong> hours</span><span><strong class="event-countdown__minute">&nbsp;</strong> minutes</span><span><strong class="event-countdown__second">&nbsp;</strong> seconds</span></p><p>until</p></div><div class="event-countdown__event-title"><p>Super Bowl</p></div></div>
-<!-- /wp:jetpack/event-countdown --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
@@ -161,9 +158,8 @@ Introducing Amazin Yeshuwanna Money: The Blockchain Powered (Economy Education B
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"55%"} -->
-<div class="wp-block-column" style="flex-basis:55%"><!-- wp:jetpack/subscriptions {"buttonBackgroundColor":"primary","textColor":"background","fontSize":"16px","customFontSize":"16px","borderRadius":2,"borderWeight":1,"padding":16} -->
-<div class="wp-block-jetpack-subscriptions wp-block-jetpack-subscriptions__supports-newline">[jetpack_subscription_form show_subscribers_total="false" button_on_newline="false" custom_font_size="16px" custom_border_radius="2" custom_border_weight="1" custom_padding="16" custom_spacing="10" submit_button_classes="has-16-px-font-size has-text-color has-background-color has-background has-primary-background-color" email_field_classes="has-16-px-font-size" show_only_email_and_button="true"]</div>
-<!-- /wp:jetpack/subscriptions --></div>
+
+
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
